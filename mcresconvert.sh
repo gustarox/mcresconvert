@@ -214,7 +214,7 @@ items/clay_ball.png default_clay_lump.png
 blocks/clay.png default_clay.png
 items/coal.png default_coal_lump.png
 blocks/coal_block.png default_coal_block.png
-blocks/coal_ore.png default_mineral_coal.png
+blocks/coal_ore.png mcl_core_coal_ore.png
 blocks/cobblestone.png default_cobble.png
 blocks/cobblestone_mossy.png default_mossycobble.png
 blocks/deadbush.png default_dry_shrub.png
@@ -222,11 +222,22 @@ items/diamond.png default_diamond.png
 items/diamond_axe.png default_tool_diamondaxe.png
 blocks/diamond_block.png default_diamond_block.png
 items/diamond_hoe.png farming_tool_diamondhoe.png
-blocks/diamond_ore.png default_mineral_diamond.png
+blocks/diamond_ore.png mcl_core_diamond_ore.png
 items/diamond_pickaxe.png default_tool_diamondpick.png
 items/diamond_shovel.png default_tool_diamondshovel.png
 items/diamond_sword.png default_tool_diamondsword.png
+
+items/gold_axe.png default_tool_goldaxe.png
+blocks/gold_block.png default_gold_block.png
+items/gold_hoe.png farming_tool_goldhoe.png
+blocks/gold_ore.png mcl_core_gold_ore.png
+items/gold_pickaxe.png default_tool_goldpick.png
+items/gold_shovel.png default_tool_goldshovel.png
+items/gold_sword.png default_tool_goldsword.png
+
 blocks/dirt.png default_dirt.png
+blocks/coarse_dirt.png mcl_core_coarse_dirt.png
+
 items/door_wood.png doors_item_wood.png
 items/door_iron.png doors_item_steel.png
 items/dye_powder_black.png dye_black.png
@@ -248,12 +259,30 @@ blocks/farmland_dry.png farming_soil.png
 blocks/farmland_wet.png farming_soil_wet.png
 blocks/fire_layer_0.png fire_basic_flame_animated.png
 items/flint.png default_flint.png
-blocks/flower_allium.png flowers_viola.png
-blocks/flower_blue_orchid.png flowers_geranium.png
-blocks/flower_dandelion.png flowers_dandelion_yellow.png
-blocks/flower_oxeye_daisy.png flowers_dandelion_white.png
-blocks/flower_rose.png flowers_rose.png
-blocks/flower_tulip_orange.png flowers_tulip.png
+
+blocks/flower_allium.png  mcl_flowers_allium.png
+blocks/flower_blue_orchid.png  mcl_flowers_blue_orchid.png
+blocks/flower_dandelion.png  flowers_dandelion_yellow.png
+blocks/flower_houstonia.png  mcl_flowers_houstonia.png
+blocks/flower_oxeye_daisy.png  mcl_flowers_oxeye_daisy.png
+blocks/flower_paeonia.png  mcl_flowers_paeonia.png
+blocks/flower_pot.png  mcl_flowers_pot.png
+blocks/flower_rose.png  flowers_rose.png
+blocks/flower_rose.png  mcl_flowers_poppy.png
+blocks/flower_tulip_orange.png  flowers_tulip.png
+blocks/flower_tulip_pink.png  mcl_flowers_tulip_pink.png
+blocks/flower_tulip_red.png  mcl_flowers_tulip_red.png
+blocks/flower_tulip_white.png  mcl_flowers_tulip_white.png
+blocks/fern.png mcl_flowers_fern.png
+blocks/double_plant_rose_bottom.png mcl_flowers_double_plant_rose_bottom.png
+blocks/double_plant_rose_top.png mcl_flowers_double_plant_rose_top.png
+blocks/double_plant_grass_bottom.png mcl_flowers_double_plant_grass_bottom.png
+blocks/double_plant_grass_top.png mcl_flowers_double_plant_grass_top.png
+
+items/melon.png farming_melon.png
+blocks/melon_side.png farming_melon_side.png 
+blocks/melon_top.png farming_melon_top.png
+
 blocks/furnace_front_off.png default_furnace_front.png
 blocks/furnace_front_on.png default_furnace_front_active.png
 blocks/furnace_side.png default_furnace_side.png
@@ -264,11 +293,18 @@ blocks/glass_gray.png default_obsidian_glass.png
 blocks/gold_block.png default_gold_block.png
 items/gold_ingot.png default_gold_ingot.png
 items/gold_nugget.png default_gold_lump.png
-blocks/gold_ore.png default_mineral_gold.png
+blocks/gold_ore.png mcl_core_gold_ore.png
 blocks/grass_side.png default_grass_side.png
-blocks/grass_side_snowed.png default_snow_side.png
+blocks/grass_side_snowed.png mcl_core_grass_side_snowed.png
+blocks/grass_path_side.png mcl_core_grass_path_side.png
+blocks/grass_path_top.png mcl_core_grass_path_top.png
+
 blocks/gravel.png default_gravel.png
-blocks/hay_block_side.png farming_straw.png
+blocks/hay_block_side.png mcl_farming_hayblock_side.png
+blocks/hay_block_top.png mcl_farming_hayblock_top.png
+blocks/jukebox_side.png mcl_jukebox_side.png
+blocks/jukebox_top.png mcl_jukebox_top.png  
+
 blocks/ice.png default_ice.png
 blocks/iron_bars.png xpanes_bar.png
 items/iron_axe.png default_tool_steelaxe.png
@@ -278,42 +314,50 @@ items/iron_shovel.png default_tool_steelshovel.png
 items/iron_sword.png default_tool_steelsword.png
 blocks/iron_block.png default_steel_block.png
 items/iron_ingot.png default_steel_ingot.png
-blocks/iron_ore.png default_mineral_iron.png
+blocks/iron_ore.png mcl_core_iron_ore.png
 blocks/iron_trapdoor.png doors_trapdoor_steel.png
 blocks/iron_trapdoor.png doors_trapdoor_steel_side.png
-blocks/ladder.png default_ladder_wood.png
+blocks/ladder.png default_ladder.png
 blocks/lava_flow.png default_lava_flowing_animated.png
 blocks/lava_still.png default_lava_source_animated.png
 blocks/log_oak.png default_tree.png
 blocks/log_oak_top.png default_tree_top.png
 blocks/log_acacia.png default_acacia_tree.png
 blocks/log_acacia_top.png default_acacia_tree_top.png
-blocks/log_birch.png default_aspen_tree.png
-blocks/log_birch_top.png default_aspen_tree_top.png
+blocks/log_big_oak.png mcl_core_log_big_oak.png
+blocks/log_big_oak_top.png mcl_core_log_big_oak_top.png
+blocks/planks_big_oak.png mcl_core_planks_big_oak.png
+
+blocks/bedrock.png mcl_core_bedrock.png
+blocks/log_birch.png mcl_core_log_birch.png
+blocks/log_birch_top.png mcl_core_log_birch_top.png
 blocks/log_jungle.png default_jungletree.png
 blocks/log_jungle_top.png default_jungletree_top.png
-blocks/log_spruce.png default_pine_tree.png
-blocks/log_spruce_top.png default_pine_tree_top.png
+blocks/log_spruce.png mcl_core_log_spruce.png
+blocks/log_spruce_top.png mcl_core_log_spruce_top.png
 blocks/mushroom_brown.png flowers_mushroom_brown.png
 blocks/mushroom_red.png flowers_mushroom_red.png
 blocks/obsidian.png default_obsidian.png
 items/paper.png default_paper.png
 blocks/planks_acacia.png default_acacia_wood.png
-blocks/planks_birch.png default_aspen_wood.png
+blocks/planks_birch.png mcl_core_planks_birch.png
 blocks/planks_jungle.png default_junglewood.png
 blocks/planks_oak.png default_wood.png
-blocks/planks_spruce.png default_pine_wood.png
+blocks/planks_spruce.png mcl_core_planks_spruce.png
 blocks/rail_normal.png default_rail.png
 blocks/rail_normal_turned.png default_rail_curved.png
-blocks/red_sand.png default_desert_sand.png
-blocks/red_sandstone_normal.png default_desert_stone.png
-blocks/red_sandstone_smooth.png default_desert_stone_brick.png
-blocks/red_sandstone_carved.png default_desert_stone_block.png
-blocks/reeds.png default_papyrus.png
+blocks/red_sand.png mcl_core_red_sand.png
+blocks/red_sandstone_normal.png mcl_core_red_sandstone.png
+blocks/red_sandstone_smooth.png mcl_core_red_sandstone_smooth.png
+blocks/red_sandstone_carved.png mcl_core_red_sandstone_carvedk.png
+blocks/red_sandstone_top.png mcl_core_red_sandstone_top.png
+blocks/reeds.png mcl_core_reeds.png
 blocks/sand.png default_sand.png
-blocks/sandstone_top.png default_sandstone.png
-blocks/sandstone_normal.png default_sandstone_brick.png
-blocks/sandstone_carved.png default_sandstone_block.png
+blocks/sandstone_top.png mcl_core_sandstone.png
+blocks/sandstone_normal.png mcl_core_sandstone_normal.png
+blocks/sandstone_carved.png mcl_core_sandstone_carved.png
+blocks/sandstone_top.png mcl_core_sandstone_top.png
+
 blocks/sapling_birch.png default_aspen_sapling.png
 blocks/sapling_jungle.png default_junglesapling.png
 blocks/sapling_spruce.png default_pine_sapling.png
@@ -335,11 +379,11 @@ blocks/stone.png default_stone.png
 blocks/stonebrick.png default_stone_brick.png
 blocks/stonebrick_carved.png default_stone_block.png
 items/sugar.png farming_flour.png
-blocks/tnt_bottom.png tnt_bottom.png
-blocks/tnt_side.png tnt_side.png
-blocks/tnt_top.png tnt_top.png
-blocks/tnt_top.png tnt_top_burning.png
-blocks/tnt_top.png tnt_top_burning_animated.png
+blocks/tnt_bottom.png default_tnt_bottom.png
+blocks/tnt_side.png default_tnt_side.png
+blocks/tnt_top.png default_tnt_top.png
+blocks/tnt_top.png default_tnt_top_burning.png
+blocks/tnt_top.png default_tnt_top_burning_animated.png
 blocks/torch_on.png default_torch_animated.png
 blocks/torch_on.png default_torch_on_floor_animated.png
 blocks/trapdoor.png doors_trapdoor.png
@@ -378,6 +422,133 @@ blocks/wool_colored_silver.png wool_grey.png
 blocks/wool_colored_white.png wool_white.png
 blocks/wool_colored_yellow.png wool_yellow.png
 blocks/redstone_lamp_on.png default_meselamp.png
+blocks/redstone_ore.png mcl_core_redstone_ore.png
+blocks/pumpkin_top.png farming_pumpkin_top.png
+blocks/pumpkin_side.png farming_pumpkin_side.png
+blocks/pumpkin_face_on.png farming_pumpkin_face_light.png
+blocks/pumpkin_face_off.png farming_pumpkin_face.png
+blocks/crafting_table_front.png crafting_workbench_front.png
+blocks/crafting_table_side.png crafting_workbench_side.png
+blocks/crafting_table_top.png crafting_workbench_top.png
+
+blocks/hardened_clay.png hardened_clay.png
+blocks/hardened_clay_stained_black.png hardened_clay_stained_black.png
+blocks/hardened_clay_stained_blue.png hardened_clay_stained_blue.png
+blocks/hardened_clay_stained_brown.png hardened_clay_stained_brown.png
+blocks/hardened_clay_stained_cyan.png hardened_clay_stained_cyan.png
+blocks/hardened_clay_stained_gray.png hardened_clay_stained_gray.png
+blocks/hardened_clay_stained_green.png hardened_clay_stained_green.png
+blocks/hardened_clay_stained_light_blue.png hardened_clay_stained_light_blue.png
+blocks/hardened_clay_stained_lime.png hardened_clay_stained_lime.png
+blocks/hardened_clay_stained_magenta.png hardened_clay_stained_magenta.png
+blocks/hardened_clay_stained_orange.png hardened_clay_stained_orange.png
+blocks/hardened_clay_stained_pink.png hardened_clay_stained_pink.png
+blocks/hardened_clay_stained_purple.png hardened_clay_stained_purple.png
+blocks/hardened_clay_stained_red.png hardened_clay_stained_red.png
+blocks/hardened_clay_stained_silver.png hardened_clay_stained_silver.png
+blocks/hardened_clay_stained_white.png hardened_clay_stained_white.png
+blocks/hardened_clay_stained_yellow.png hardened_clay_stained_yellow.png
+
+blocks/lapis_ore.png mcl_core_lapis_ore.png
+items/dye_powder_blue.png default_lapis.png
+blocks/stone_granite.png mcl_core_granite.png
+blocks/stone_andesite.png mcl_core_andesite.png
+blocks/stone_diorite.png mcl_core_diorite.png
+blocks/stone_slab_side.png mcl_stairs_stone_slab_side.png
+blocks/stone_slab_top.png mcl_stairs_stone_slab_top.png
+
+blocks/mushroom_red.png farming_mushroom_red.png
+blocks/mushroom_red.png flowers_mushroom_red.png
+blocks/mushroom_red.png mobs_mc_mushroom_red.png
+blocks/mushroom_brown.png farming_mushroom_brown.png
+blocks/mushroom_brown.png flowers_mushroom_brown.png
+blocks/mushroom_brown.png mobs_mc_mushroom_brown.png
+
+entity/creeper/creeper.png mobs_mc_creeper.png
+entity/creeper/creeper_armor.png mobs_mc_creeper_armor.png 
+entity/cat/ocelot.png mobs_mc_cat_ocelot.png
+entity/cat/black.png mobs_mc_cat_black.png
+entity/cat/red.png mobs_mc_cat_red.png
+entity/cat/siamese.png mobs_mc_cat_siamese.png
+entity/cow/cow.png mobs_mc_cow.png
+entity/cow/mooshroom.png mobs_mc_mooshroom.png
+entity/zombie/zombie.png mobs_mc_zombie.png
+entity/skeleton/skeleton.png mobs_mc_skeleton.png
+entity/skeleton/wither_skeleton.png mobs_mc_wither_skeleton.png 
+entity/enderman/enderman.png mobs_mc_enderman.png
+entity/enderman/enderman_eyes.png mobs_mc_enderman_eyes.png
+entity/spider/spider.png mobs_mc_spider.png 
+entity/spider/cave_spider.png mobs_mc_cave_spider.png
+entity/slime/slime.png mobs_mc_slime.png
+entity/sheep/sheep.png mobs_mc_sheep.png
+entity/sheep/sheep_fur.png mobs_mc_sheep_fur.png
+
+blocks/dropper_front_horizontal.png mcl_droppers_dropper_front_horizontal.png
+blocks/dropper_front_vertical.png mcl_droppers_dropper_front_vertical.png
+blocks/emerald_ore.png mcl_core_emerald_ore.png
+blocks/emerald_block.png mcl_core_emerald_block.png
+
+blocks/glass_black.png  mcl_core_glass_black.png
+blocks/glass_blue.png  mcl_core_glass_blue.png
+blocks/glass_brown.png  mcl_core_glass_brown.png
+blocks/glass_cyan.png  mcl_core_glass_cyan.png
+blocks/glass_gray.png  mcl_core_glass_gray.png
+blocks/glass_green.png  mcl_core_glass_green.png
+blocks/glass_light_blue.png  mcl_core_glass_light_blue.png
+blocks/glass_lime.png  mcl_core_glass_lime.png
+blocks/glass_magenta.png  mcl_core_glass_magenta.png
+blocks/glass_orange.png  mcl_core_glass_orange.png
+blocks/glass_pane_top_black.png  mcl_core_glass_pane_top_black.png
+blocks/glass_pane_top_blue.png  mcl_core_glass_pane_top_blue.png
+blocks/glass_pane_top_brown.png  mcl_core_glass_pane_top_brown.png
+blocks/glass_pane_top_cyan.png  mcl_core_glass_pane_top_cyan.png
+blocks/glass_pane_top_gray.png  mcl_core_glass_pane_top_gray.png
+blocks/glass_pane_top_green.png  mcl_core_glass_pane_top_green.png
+blocks/glass_pane_top_light_blue.png  mcl_core_glass_pane_top_light_blue.png
+blocks/glass_pane_top_lime.png  mcl_core_glass_pane_top_lime.png
+blocks/glass_pane_top_magenta.png  mcl_core_glass_pane_top_magenta.png
+blocks/glass_pane_top_orange.png  mcl_core_glass_pane_top_orange.png
+blocks/glass_pane_top_pink.png  mcl_core_glass_pane_top_pink.png
+blocks/glass_pane_top.png  mcl_core_glass_pane_top.png
+blocks/glass_pane_top_purple.png  mcl_core_glass_pane_top_purple.png
+blocks/glass_pane_top_red.png  mcl_core_glass_pane_top_red.png
+blocks/glass_pane_top_silver.png  mcl_core_glass_pane_top_silver.png
+blocks/glass_pane_top_white.png  mcl_core_glass_pane_top_white.png
+blocks/glass_pane_top_yellow.png  mcl_core_glass_pane_top_yellow.png
+blocks/glass_pink.png  mcl_core_glass_pink.png
+blocks/glass.png  mcl_core_glass.png
+blocks/glass_purple.png  mcl_core_glass_purple.png
+blocks/glass_red.png  mcl_core_glass_red.png
+blocks/glass_silver.png  mcl_core_glass_silver.png
+blocks/glass_white.png  mcl_core_glass_white.png
+blocks/glass_yellow.png  mcl_core_glass_yellow.png
+
+blocks/rail_activator.png mcl_minecarts_rail_activator.png
+blocks/rail_activator_powered.png mcl_minecarts_rail_activator_powered.png
+blocks/rail_detector.png mcl_minecarts_rail_detector.png
+blocks/rail_detector_powered.png mcl_minecarts_rail_detector_powered.png
+blocks/rail_golden.png mcl_minecarts_rail_golden.png
+blocks/rail_golden_powered.png mcl_minecarts_rail_golden_powered.png
+blocks/rail_normal.png mcl_minecarts_rail_normal.png
+blocks/rail_normal_turned.png mcl_minecarts_rail_normal_turned.png
+
+items/door_acacia.png  mcl_doors_door_acacia.png 
+items/door_dark_oak.png mcl_doors_door_dark_oak.png
+items/door_birch.png mcl_doors_door_birch.png
+items/door_iron.png mcl_doors_door_iron.png
+items/door_jungle.png  mcl_doors_door_jungle.png 
+items/door_spruce.png mcl_doors_door_spruce.png
+items/door_wood.png  mcl_doors_door_wood.png 
+
+items/fish_clownfish_raw.png mcl_fishing_clownfish_raw.png
+items/fish_cod_cooked.png mcl_fishing_fish_cod_cooked.png
+items/fish_cod_raw.png mcl_fishing_fish_cod_raw.png
+items/fishing_rod_cast.png mcl_fishing_fishing_rod_cast.png
+items/fish_pufferfish_raw.png mcl_fishing_fish_pufferfish_raw.png
+items/fish_salmon_cooked.png mcl_fishing_fish_salmon_cooked.png
+items/fish_salmon_raw.png mcl_fishing_fish_salmon_raw.png
+
+
 RENAMES
 ) |		while read IN OUT FLAG; do
 			echo -e "." >> _n/_tot
@@ -404,11 +575,11 @@ RENAMES
 			composite -compose Multiply _n/_c.png _n/blocks/grass_top.png default_dry_grass.png
 			echo -e "." >> _n/_counter
 
-			convert_alphatex _n/colormap/grass.png blocks/tallgrass.png 70+120 ${PXSIZE} default_grass_5.png
-			make_grass blocks/tallgrass1.png _n/colormap/grass.png default_grass_5.png default_grass_4.png 1
-			make_grass blocks/tallgrass2.png _n/colormap/grass.png default_grass_5.png default_grass_3.png 2
-			make_grass blocks/tallgrass3.png _n/colormap/grass.png default_grass_5.png default_grass_2.png 3
-			make_grass blocks/tallgrass4.png _n/colormap/grass.png default_grass_5.png default_grass_1.png 4
+			convert_alphatex _n/colormap/grass.png blocks/tallgrass.png 70+120 ${PXSIZE} mcl_flowers_tallgrass.png
+			make_grass blocks/tallgrass1.png _n/colormap/grass.png mcl_flowers_tallgrass.png default_grass_4.png 1
+			make_grass blocks/tallgrass2.png _n/colormap/grass.png mcl_flowers_tallgrass.png default_grass_3.png 2
+			make_grass blocks/tallgrass3.png _n/colormap/grass.png mcl_flowers_tallgrass.png default_grass_2.png 3
+			make_grass blocks/tallgrass4.png _n/colormap/grass.png mcl_flowers_tallgrass.png default_grass_1.png 4
 			#FIXME tile this
 			convert_alphatex _n/colormap/grass.png blocks/grass_side_overlay.png 70+120 ${PXSIZE} default_grass_side.png
 
@@ -460,7 +631,7 @@ RENAMES
 		# TODO: minetest also has doors_door_{glass,obsidian}.png
 		# TODO: minecraft also has: acacia, birch, dark_oak, jungle, spruce
 		echo -e "." >> _n/_tot
-		if compose_door _n/blocks/door_wood_lower.png _n/blocks/door_wood_upper.png doors_door_wood.png; then
+		if compose_door _n/blocks/door_wood_lower.png _n/blocks/door_wood_upper.png mcl_doors_wooden_door.png; then
 			echo -e "." >> _n/_counter
 		fi
 
@@ -471,11 +642,47 @@ RENAMES
 
 		# fences - make alternative from planks
 		# TODO: minecraft has: big_oak
-		make_fence _n/blocks/fence_oak.png _n/blocks/planks_oak.png default_fence_wood.png
-		make_fence _n/blocks/fence_acacia.png _n/blocks/planks_acacia.png default_fence_acacia_wood.png
-		make_fence _n/blocks/fence_spruce.png _n/blocks/planks_spruce.png default_fence_pine_wood.png
-		make_fence _n/blocks/fence_jungle.png _n/blocks/planks_jungle.png default_fence_junglewood.png
-		make_fence _n/blocks/fence_birch.png _n/blocks/planks_birch.png default_fence_aspen_wood.png
+		make_fence _n/blocks/fence_oak.png _n/blocks/planks_oak.png mcl_fences_fence_oak.png
+		make_fence _n/blocks/fence_acacia.png _n/blocks/planks_acacia.png mcl_fences_fence_acacia.png
+		make_fence _n/blocks/fence_spruce.png _n/blocks/planks_spruce.png mcl_fences_fence_spruce.png
+		make_fence _n/blocks/fence_jungle.png _n/blocks/planks_jungle.png mcl_fences_fence_jungle.png
+		make_fence _n/blocks/fence_birch.png _n/blocks/planks_birch.png mcl_fences_fence_aspen.png
+
+		# doors - make alternative 
+		# TODO
+		convert -flop _n/blocks/door_wood_upper.png mcl_doors_door_wood_upper.png
+		convert -flop _n/blocks/door_wood_lower.png mcl_doors_door_wood_lower.png
+		convert mcl_doors_door_wood_upper.png -crop 16x16+15+10 mcl_doors_door_wood_side_upper.png
+		convert mcl_doors_door_wood_lower.png -crop 16x16+15+10 mcl_doors_door_wood_side_lower.png
+
+		convert -flop _n/blocks/door_acacia_upper.png mcl_doors_door_acacia_upper.png
+		convert -flop _n/blocks/door_acacia_lower.png mcl_doors_door_acacia_lower.png
+		convert mcl_doors_door_acacia_upper.png -crop 16x16+15+10 mcl_doors_door_acacia_side_upper.png
+		convert mcl_doors_door_acacia_lower.png -crop 16x16+15+10 mcl_doors_door_acacia_side_lower.png
+
+		convert -flop _n/blocks/door_spruce_upper.png mcl_doors_door_spruce_upper.png
+		convert -flop _n/blocks/door_spruce_lower.png mcl_doors_door_spruce_lower.png
+		convert mcl_doors_door_spruce_upper.png -crop 16x16+15+10 mcl_doors_door_spruce_side_upper.png
+		convert mcl_doors_door_spruce_lower.png -crop 16x16+15+10 mcl_doors_door_spruce_side_lower.png
+
+		convert -flop _n/blocks/door_birch_upper.png mcl_doors_door_birch_upper.png
+		convert -flop _n/blocks/door_birch_lower.png mcl_doors_door_birch_lower.png
+		convert mcl_doors_door_birch_upper.png -crop 16x16+15+10 mcl_doors_door_birch_side_upper.png
+		convert mcl_doors_door_birch_lower.png -crop 16x16+15+10 mcl_doors_door_birch_side_lower.png
+
+		convert -flop _n/blocks/door_jungle_upper.png mcl_doors_door_jungle_upper.png
+		convert -flop _n/blocks/door_jungle_lower.png mcl_doors_door_jungle_lower.png
+		convert mcl_doors_door_jungle_upper.png -crop 16x16+15+10 mcl_doors_door_jungle_side_upper.png
+		convert mcl_doors_door_jungle_lower.png -crop 16x16+15+10 mcl_doors_door_jungle_side_lower.png
+
+		convert -flop _n/blocks/door_dark_oak_upper.png mcl_doors_door_dark_oak_upper.png
+		convert -flop _n/blocks/door_dark_oak_lower.png mcl_doors_door_dark_oak_lower.png
+		convert mcl_doors_door_dark_oak_upper.png -crop 16x16+15+10 mcl_doors_door_dark_oak_side_upper.png
+		convert mcl_doors_door_dark_oak_lower.png -crop 16x16+15+10 mcl_doors_door_dark_oak_side_lower.png
+
+
+
+
 
 		# chest textures
 		echo -e "..." >> _n/_tot
@@ -491,7 +698,9 @@ RENAMES
 			convert _n/entity/chest/normal.png \
 				\( -clone 0 -crop $((CHPX))x$(((PXSIZE/16)*5))+$((2*CHPX))+$((CHPX)) \) -geometry +0+0 -composite \
 				\( -clone 0 -crop $((CHPX))x$(((PXSIZE/16)*10))+$((2*CHPX))+$(( (2*CHPX)+((PXSIZE/16)*5) )) \) -geometry +0+$(((PXSIZE/16)*5)) -composite \
-				-extent $((CHPX))x$((CHPX)) default_chest_side.png
+				-extent $((CHPX))x$((CHPX)) mcl_chests_chest_right.png
+			cp mcl_chests_chest_right.png mcl_chests_chest_left.png
+			cp mcl_chests_chest_right.png mcl_chests_chest_back.png
 			echo -e "..." >> _n/_counter
 		fi
 
@@ -587,8 +796,8 @@ RENAMES
 		# cactus needs manual cropping
 		echo -e ".." >> _n/_tot
 		if [ -f _n/blocks/cactus_top.png ]; then
-			convert _n/blocks/cactus_top.png -crop +$((PXSIZE/16))+$((PXSIZE/16))x$(((PXSIZE/16)*14))x$(((PXSIZE/16)*14)) +repage -extent $(((PXSIZE/16)*14))x$(((PXSIZE/16)*14)) default_cactus_top.png
-			convert _n/blocks/cactus_side.png -crop +$((PXSIZE/16))+$((PXSIZE/16))x$(((PXSIZE/16)*14))x$(((PXSIZE/16)*14)) +repage -extent $(((PXSIZE/16)*14))x$(((PXSIZE/16)*14)) default_cactus_side.png
+			convert _n/blocks/cactus_top.png -crop +$((PXSIZE/16))+$((PXSIZE/16))x$(((PXSIZE/16)*14))x$(((PXSIZE/16)*14)) +repage -extent $(((PXSIZE/16)*14))x$(((PXSIZE/16)*14)) mcl_core_cactus_top.png
+			convert _n/blocks/cactus_side.png -crop +$((PXSIZE/16))+$((PXSIZE/16))x$(((PXSIZE/16)*14))x$(((PXSIZE/16)*14)) +repage -extent $(((PXSIZE/16)*14))x$(((PXSIZE/16)*14)) mcl_core_cactus_side.png
 			echo -e ".." >> _n/_counter
 		fi
 
@@ -612,7 +821,7 @@ RENAMES
 			compare _n/blocks/stone.png _n/blocks/emerald_ore.png -metric AE -fuzz 5% -compose Src -highlight-color White -lowlight-color none _n/m.png 2> /dev/null
 			composite -compose Dst_In -gravity center _n/m.png _n/blocks/emerald_ore.png -alpha Set _n/o.png
 			convert _n/o.png -modulate 100,100,80 default_mineral_mese.png
-			convert _n/blocks/emerald_block.png -modulate 100,100,80 default_mese_block.png
+			convert _n/blocks/emerald_block.png -modulate 100,100,80 mcl_core_emerald_block.png
 			convert _n/items/emerald.png -modulate 100,100,80 default_mese_crystal.png
 		fi
 
